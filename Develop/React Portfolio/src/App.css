@@ -4,39 +4,54 @@
   padding: 2rem;
   text-align: center;
 }
+/* Header.css */
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style for the header container */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  /* Align items with space between */
+  align-items: center;
+  /* Align items vertically */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Style for the developer's name */
+.developer-name {
+  font-family: sans-serif;
+  font-size: 24px;
+  margin: 0;
+  /* Remove default margin */
 }
 
-.card {
-  padding: 2em;
+/* Style for the navigation links */
+.navigation {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* Remove default margin */
 }
 
-.read-the-docs {
-  color: #888;
+.navigation li {
+  display: inline;
+  margin-left: 20px;
+  /* Add margin between navigation links */
+}
+
+.navigation li:first-child {
+  margin-left: 0;
+  /* Remove margin from the first navigation link */
+}
+
+.navigation li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navigation li a:hover {
+  text-decoration: underline;
 }
