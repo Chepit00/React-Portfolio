@@ -2,6 +2,7 @@
 
 import React from 'react';
 
+
 const Project = ({ title, description, imageSrc, appLink, repoLink }) => {
     return (
         <div className="project">

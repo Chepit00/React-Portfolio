@@ -1,21 +1,21 @@
-import { useState } from 'react'
+// App.jsx
+
 import React from 'react';
-import Header from './components/Header'; // Importing Header component
+import { createRoot } from 'react-dom/client';
+import Home from './pages/Home';
+
+// import AboutMe from './pages/AboutMe.jsx';
+// import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 import Portfolio from './components/Portfolio';
-import './App.css'
+// import ResumePage from './pages/ResumePage';
+import Header from './components/Header';
+// import Footer from './components/Footer';
 
-const App = () => {
-    return (
-        <div className="App">
-            <Header /> {/* Header component */}
-            
-            {/* Main content of the application */}
-            <main>
-            </main>
-            
-
-        </div>
-    );
-}
-
-export default App
+const App = () => (
+  <div>
+    <Header />
+    {/* <Home />; */}
+  </div>
+);
+export default App;
