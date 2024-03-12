@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Project from '../Project'; // Import the Project component
 import '../portfolio/Projects.css'; // Import the CSS file for portfolio styles
 
+
 const Portfolio = () => {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -20,7 +21,7 @@ const Portfolio = () => {
         {
             title: "Savor of the Day",
             description: "This application is to be used to generate new recipes for users to have an assortment of meals at their disposal without spending a bunch of time looking for quality recipes.",
-            imageSrc: "/Images/SavorOfTheDay.png",
+            imageSrc: "../../../Images/SavorOfTheDay.png",
             appLink: "https://noah-wyche.github.io/Savor-of-the-Day/",
             repoLink: "https://github.com/Chepit00/Savor-of-the-Day"
         },
