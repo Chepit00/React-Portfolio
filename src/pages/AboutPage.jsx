@@ -1,6 +1,6 @@
 // importing needed files 
 import '../components/about/aboutMe.css';
-import picture from '../../src/assets/Images/jlsilva.png';
+import picture from '/Images/jlsilva.png';
     
 
 export default function AboutMe() {

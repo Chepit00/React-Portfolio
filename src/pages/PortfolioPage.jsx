@@ -20,27 +20,27 @@ const Portfolio = () => {
         {
             title: "Savor of the Day",
             description: "This application is to be used to generate new recipes for users to have an assortment of meals at their disposal without spending a bunch of time looking for quality recipes.",
-            imageSrc: "../../src/assets/Images/SavorOfTheDay.png",
+            imageSrc: "/Images/SavorOfTheDay.png",
             appLink: "https://noah-wyche.github.io/Savor-of-the-Day/",
             repoLink: "https://github.com/Chepit00/Savor-of-the-Day"
         },
         {
             title: "Kursties Kookies 🍪",
             description: "Kurstie's Kookies is a web application where you can shop for baked goods. Each user can log in to an individualized account, browse their favorite treats, and choose which ones they'd like to buy and add to their cart.",
-            imageSrc: "../../src/assets/Images/KurstiesKookies.png",
+            imageSrc: "/Images/KurstiesKookies.png",
             appLink: "https://infinite-depths-65606-d9aa1a1e89cd.herokuapp.com/",
             repoLink: "https://github.com/Chepit00/kursties-kookies"
         },
         {
             title: "E-Commerce Back End ORM",
             description: "Building the back end for an e-commerce website using the latest technologies.",
-            imageSrc: "../../src/assets/Images/ORM.png",
+            imageSrc: "/Images/ORM.png",
             repoLink:"https://github.com/Chepit00/E-Commerce-Back-End-ORM-?tab=readme-ov-file"
         },
         {
             title: "Travel Cast",
             description: "Travel Cast is an app designed to help users plan accordingly for traveling or everyday use, with a 5 day forecast.",
-            imageSrc: "../../src/assets/Images/TravelCast.png",
+            imageSrc: "/Images/TravelCast.png",
             appLink: "https://chepit00.github.io/Travel-Cast/",
             repoLink: "https://github.com/Chepit00/Travel-Cast?tab=readme-ov-file"
         }

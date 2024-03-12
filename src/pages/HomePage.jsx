@@ -1,5 +1,5 @@
 import React from 'react';
-import picture from '../../src/assets/Images/jlsilva.png'
+import picture from '/Images/jlsilva.png'
 
 
 export default function HomePage() {
