@@ -1,6 +1,6 @@
 // Footer.jsx
 import '../footer/Footer.css'
-import githubLogo from '../../../Images/github-mark-white.png'; // Import the GitHub logo image
+import githubLogo from '../../../src/assets/Images/github-mark-white.png' // Import the GitHub logo image
 
 const Footer = () => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
-import picture from '../../Images/jlsilva.png';
+import picture from '../../src/assets/Images/jlsilva.png'
+
 
 export default function HomePage() {
 // returns image and h1 with text "welcome..etc"
