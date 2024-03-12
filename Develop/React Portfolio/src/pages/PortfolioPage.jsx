@@ -15,6 +15,7 @@ const Portfolio = () => {
         return () => clearTimeout(timeout);
     }, []);
 
+    // Array of project data
     const projects = [
         {
             title: "Savor of the Day",
@@ -45,6 +46,7 @@ const Portfolio = () => {
         }
     ];
 
+    // jsx content for the Portfolio page
     return (
 
         <div>

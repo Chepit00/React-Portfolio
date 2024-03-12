@@ -1,9 +1,11 @@
+// importing needed files 
 import '../components/about/aboutMe.css';
 import picture from '../../Images/jlsilva.png';
     
-    
+
 export default function AboutMe() {
   return (
+    // Container for the About Me content with the specified class name
     <div className='about-me-container'>
       <img src={picture} alt="Jose Silva" className="aboutMe-picture" />
       <h1 className='heading'>Who AM I?</h1>

@@ -3,8 +3,10 @@ import resumeFile from '../assets/Resume_JoseS..pdf';
 import skillsAndTech from '../components/resume/skillsTech.jsx';
 
 const Resume = () => {
+    // Calling skillsAndTech function to get skills and technologies
     const skillsAndTechnologies = skillsAndTech();
 
+    // jsx content for the Resume page
     return (
         <div className="p-8">
             <h2 className="text-6xl font-bold mb-6">Skills & Technologies</h2>

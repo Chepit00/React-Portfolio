@@ -1,11 +1,11 @@
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+// Importing NavLink from react-router-dom and Navigation.css
 import { NavLink } from 'react-router-dom';
-import CSS from './Navigation.css'
+import './Navigation.css'
 
-
-function Navigation({ currentPage, handlePageChange }) {
+// Functional component for navigation bar
+function Navigation() {
   return (
+     // Unordered list with Bootstrap classes and custom CSS class
     <ul className="nav nav-tabs navigation flex flex-wrap justify-between items-center">
             <NavLink as="li" className="nav-link text-light" to="/">
           Home

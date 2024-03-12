@@ -2,7 +2,7 @@ import React from 'react';
 import picture from '../../Images/jlsilva.png';
 
 export default function HomePage() {
-
+// returns image and h1 with text "welcome..etc"
   return (
       <div id="home-page" className="flex items-center justify-center flex-col mt-10">
           <img src={picture} alt="Jose Silva" className="aboutMe-picture" />

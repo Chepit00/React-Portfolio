@@ -9,6 +9,7 @@ const ContactForm = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    
 
     // Function to handle form submission
     const handleSubmit = (e) => {
@@ -20,7 +21,6 @@ const ContactForm = () => {
         console.log('Message:', message);
         //No logic at the moment to handle form submission
         
-        // window.location.href = '/404'; 
     };
 
     return (

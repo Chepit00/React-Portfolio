@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <App />,
         errorElement: <ErrorPage />,
         children: [
-            {
+            {   // Indicates that this route is the index route
                 index: true,
                 element: <HomePage />
             },
