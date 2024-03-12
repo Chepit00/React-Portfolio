@@ -1,0 +1,67 @@
+/* Projects.css */
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    font-size: large;
+    width: 400px;
+    margin: 20px;
+    margin-top: 90px;
+    padding: 20px;
+    border: 1px solid #080101;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(4, 4, 3, 0.831);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: #cfd5d6;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.project-card.kursties-kookies img {
+    max-height: 900px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.app-link,
+.repo-link {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.app-link:hover,
+.repo-link:hover {
+    background-color: #0056b3;
+}
