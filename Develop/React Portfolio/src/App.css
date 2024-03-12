@@ -1,57 +1,56 @@
 #root {
-  max-width: 1280px;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-/* Header.css */
 
-/* Style for the header container */
-.header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
+.head {
+   margin: 0;
+   font-size: 75px;
+
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 2rem;
   text-align: center;
+}
+
+.head {
+  margin: 0;
+  font-size: 75px;
+
+}
+
+.navigation {
   display: flex;
   justify-content: space-between;
-  /* Align items with space between */
-  align-items: center;
-  /* Align items vertically */
-}
-
-/* Style for the developer's name */
-.developer-name {
-  font-family: sans-serif;
-  font-size: 24px;
-  margin: 0;
-  /* Remove default margin */
-}
-
-/* Style for the navigation links */
-.navigation {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
-  /* Remove default margin */
 }
 
-.navigation li {
-  display: inline;
-  margin-left: 20px;
-  /* Add margin between navigation links */
+.nav-item.name {
+  order: -1;
+  font-size: 30px;
 }
 
-.navigation li:first-child {
-  margin-left: 0;
-  /* Remove margin from the first navigation link */
+.nav-item {
+  font-size: larger;
 }
 
-.navigation li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
+.name-link {
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
 }
 
-.navigation li a:hover {
-  text-decoration: underline;
+.nav-link {
+  border-radius: 4px;
+  color: #f6fafb;
+  background-color: #4d5359;
+  border-color: #040405;
+  font-weight: bold;
 }

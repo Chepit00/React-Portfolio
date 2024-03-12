@@ -1,0 +1,29 @@
+/* ContactForm.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contact-form {
+    @apply max-w-lg mx-auto p-4 rounded border-gray-300;
+}
+
+.contact-form label {
+    @apply block mb-4;
+}
+
+.contact-form input,
+.contact-form textarea {
+    @apply w-full px-4 py-2 mb-4 border border-gray-300 rounded;
+}
+
+.contact-form textarea {
+    @apply resize-y;
+}
+
+.contact-form button {
+    @apply block w-full px-4 py-2 bg-blue-500 text-white rounded cursor-pointer;
+}
+
+.contact-form button:hover {
+    @apply bg-blue-700;
+}
