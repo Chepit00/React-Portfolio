@@ -15,6 +15,9 @@
 ## Description
 
 This is a single-page application React portfolio that serves as a showcase of my projects and skills. It provides a platform for fellow developers and potential employers to explore my work and reach out for collaboration opportunities. Additionally, the portfolio includes details about my skills, technologies, and a downloadable resume to provide comprehensive information about my expertise and background.
+
+Deployed app here: https://joses-react-portfolio.netlify.app/
+
 ![Screenshot 2024-03-12 003809](https://github.com/Chepit00/React-Portfolio/assets/144062349/be77b557-7304-40ea-838c-5c95b93e8d46)
 
 ![Screenshot 2024-03-12 003700](https://github.com/Chepit00/React-Portfolio/assets/144062349/e5cd8ea6-2b8a-4863-840e-7b908257b1f5)
